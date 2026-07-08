@@ -1173,9 +1173,10 @@ async function startServer() {
     app.use(vite.middlewares);
   }
 
-  const port = 3000;
+  const port = Number(process.env.PORT) || 3000;
+
   app.listen(port, "0.0.0.0", () => {
-    console.log(`Server is running at http://localhost:${port}`);
+    console.log(`Server running on port ${port}`);
   });
 }
 
