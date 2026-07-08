@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Remix: Adversarial Interview Coach",
+  "description": "A premium adaptive mock interview coach using a multi-agent AI architecture to test and improve your interview readiness.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
